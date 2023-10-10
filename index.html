@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heart-animation</title>
+  <style>
+    body{
+      background-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .Heart{
+      font-size: 10rem;
+      animation: Heart .5s infinite alternate linear;
+    }
+    @keyframes Heart{
+      from{
+        transform: scale(.7) ;
+      }
+      to{
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Heart">
+    &#10084;&#65039;&#65039;
+  </div>
+</body>
+</html>
